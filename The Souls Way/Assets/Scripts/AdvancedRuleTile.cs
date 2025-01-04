@@ -45,7 +45,7 @@ public class AdvancedRuleTile : RuleTile<AdvancedRuleTile.Neighbor> {
         //if (!alwaysConnect) 
         //    return tile == this;
         //else 
-            return tilesToConnect.Contains(tile) || tile == this;
+            return tile == this;
 
         //.Contains requires "using System.Linq;"
     }

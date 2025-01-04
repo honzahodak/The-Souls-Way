@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 174991475616353146}
   - component: {fileID: 1821623917626157454}
   - component: {fileID: -8731743890835198814}
+  - component: {fileID: -6693753171949438676}
   m_Layer: 7
   m_Name: Empty Soul
   m_TagString: Untagged
@@ -103,7 +104,7 @@ Rigidbody2D:
   m_LinearDrag: 10
   m_AngularDrag: 10
   m_GravityScale: 10
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 6d27af61d63d2ab47a6518a3ae32f87c, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -179,3 +180,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99d8cc49e26625f41aede344f68b2737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &-6693753171949438676
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3745077275077996608}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 5

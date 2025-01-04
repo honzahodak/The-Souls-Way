@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3754105965823159570}
   - component: {fileID: 6458304258715583777}
   - component: {fileID: 494881363333988046}
+  - component: {fileID: 2462846329445125627}
   m_Layer: 0
   m_Name: Soul-checkpoint
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ee67616aac009849866b291f3e40f25, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6464ff975d1c99940b7dddde39f09f78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -120,3 +121,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.7125979, y: 1.5477479}
   m_Direction: 0
+--- !u!114 &2462846329445125627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4429105520711986232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60eef3fe98bbd004987126d2097184b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transform: {fileID: 3754105965823159570}
